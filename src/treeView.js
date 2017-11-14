@@ -93,7 +93,7 @@ class VSNotesTreeView  {
     }
   }
 
-  // Given a filepath, return an array of TreeItems
+  // Given a file path, return an array of TreeItems
   _getDirectoryContents (filePath) {
     return new Promise ((resolve, reject) => {
       fs.readdir(filePath).then(files => {

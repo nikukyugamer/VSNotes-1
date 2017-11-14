@@ -30,6 +30,7 @@
         "onCommand:extension.setupNotes",
         "onCommand:extension.openNoteFolder",
         "onCommand:extension.commitPush",
+        "onCommand:extension.searchNotes",
         "onView:vsnotes"
     ],
     "main": "./extension",
@@ -173,6 +174,10 @@
             {
                 "command": "extension.commitPush",
                 "title": "VSNotes: Commit and Push"
+            },
+            {
+                "command": "extension.searchNotes",
+                "title": "VSNotes: Search notes folder"
             },
             {
                 "command": "extension.refreshVSNotesView",

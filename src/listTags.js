@@ -10,7 +10,6 @@ module.exports = function () {
 
   const noteFolderLen = noteFolder.length;
 
-
   createTagIndex(noteFolder).then(tags => {
     vscode.window.showQuickPick(Object.keys(tags)).then(tag => {
       if (tag != null) {
